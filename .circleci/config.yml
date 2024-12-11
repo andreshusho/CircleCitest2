@@ -38,7 +38,7 @@ jobs:
 
       - run:
           name: Pruebas katalon
-          command: mvn -Dtest=Test_Crud_Agregar test
+          command: mvn -Dtest=com.fca.calidad.funcionales.Test_Crud_Agregar test
       # Then run your tests!
       
       - store_test_results:
