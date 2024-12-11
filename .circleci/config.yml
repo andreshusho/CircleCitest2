@@ -38,7 +38,7 @@ jobs:
 
       - run:
           name: Pruebas katalon
-          command: mvn -Dtest=Test_Crud test
+          command: mvn -Dtest=Test_Crud_Agregar test
       # Then run your tests!
       
       - store_test_results:
